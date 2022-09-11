@@ -17,7 +17,7 @@ def new_york():
 
     # Plot coordinates
     coordinates = (40.75, -74)
-    gmaps.configure(api_key = 'AIzaSyBwMwFNtGh9etlN-dmusTNQQO1bGIK1Mac')
+    gmaps.configure(api_key = '')
     _map = gmaps.figure(center=coordinates, zoom_level=12)
 
     # Render map in Streamlit
