@@ -1,7 +1,7 @@
 from ipywidgets import embed
 import streamlit.components.v1 as components
 import gmaps
-gmaps.configure(api_key = 'AIzaSyBwMwFNtGh9etlN-dmusTNQQO1bGIK1Mac')
+gmaps.configure(api_key = '')
 
 def new_york():
 
